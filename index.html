@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.cs">
     <title>Akan-Names</title>
 </head>
 <body>
+    <div class="container">
     <hi>Akan-Names</hi>
-    <p></p>
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationServer01">Date</label>
+          <input type="number" class="form-control is-valid" id="validationServer01" max="31" min="0" placeholder="Date" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+    </div> 
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationServer01">Month</label>
+          <input type="number" class="form-control is-valid" id="validationServer01" max="12" min="0" placeholder="Month" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationServer01">Year of Birth</label>
+          <input type="number" class="form-control is-valid" id="validationServer01" max="2020" min="1900" placeholder="Year of Birth" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+    </div> 
+    <button class="btn btn-primary" type="submit">Submit form</button>   
+    </div>
+       
+        
+         
 </body>
 </html>
