@@ -14,7 +14,33 @@
      and the day they were born.
   </p>
   <form>
-
-  </form>       
+    <label for="day-of-birth">
+      Day:
+      <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+    </label>
+    <label for="month-of-birth">
+      Month:
+      <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+    </label>
+    <label for="year-of-birth">
+      Year:
+      <input id="year-input" type="number" name="month-of-birth" placeholder="YY" value="" required>
+    </label>
+    <label for="gender">
+      <p>Select Gender: </p>
+      Male
+      <input id="male-input" type="radio" name="gender" value="male" required>
+      Female
+      <input id="female-input" type="radio" name="gender" value="female" required>
+    </label>
+  </form>  
+  <form>
+    <form onsubmit="return clearInput()">
+      <input class="clear" type="submit" value="Clear input">
+    </form>
+    <h4 id = display-name><strong>Your Akan name will be displayed:</strong></h4>
+    <p id="result"></p>
+  </form>
+ <script src="script.js"></script>      
 </body>
 </html>
