@@ -15,34 +15,34 @@
      and the day they were born.
   </p>
   <form class="">
-    <div>
+    <div class="row">
     <label for="day-of-birth">
-      Day:
+      <h3>Date Of Birth:</h3>
       <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
     </label>
     </div>
     <div class="row">
     <label for="month-of-birth">
-      Month:
+      <h3>Your birthday Month :</h3>
       <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
     </label>
     </div>
     <div class="row">
     <label for="year-of-birth">
-      Year:
+      <h3>Year or birth:</h3>
       <input id="year-input" type="number" name="year-of-birth" placeholder="YY" value="" required>
     </label>
     </div>
     <label for="gender" id="add">
-      <p> Gender: </p>
+      <h4> Gender: </h4>
       Male
       <input id="male-input" type="radio" name="gender" value="male" required><br>
       Female
       <input id="female-input" type="radio" name="gender" value="female" required><br>
     </label>
     <br><br>
-    <button type="button" onclick="getAkanName()">Generate name</button>
-   
+    <button type="button" onclick="getAkanName()" class="btn btn-success">Generate name</button>
+    <button type="button" onclick="clearInput()" class="btn btn-danger">Clear input</button>
   </form>  
     <h4 id = "display-name"></h4>
     <p id="result"></p>
