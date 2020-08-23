@@ -13,7 +13,7 @@ To get your Akan Name, follow these simple steps:
 3. Finally click on this link https://ashisoma.github.io/Akan/
 
 ## Technology Used
-In this project, html was used to craert the form and CSS to style it. JavaScript was also used to come up with the algorithm.
+In this project, html was used to craert the form and CSS, basically more of bootsrap, to style it. JavaScript was also used to come up with the algorithm.
 
 ## License
 * MIT
