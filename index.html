@@ -76,10 +76,12 @@
     </label>
     <br><br>
     <button type="button" onclick="getAkanName()" class="btn btn-success">Generate name</button>
-    <button type="button" onclick="clearInput()" class="btn btn-danger">Clear input</button>
-  </form>  
+  </form> 
+  <form onsubmit="return clearInput()">
+    <input class="clear btn btn-danger" type="submit" value="Clear input data">
+  </form> 
     <h4 id = "display-name"></h4>
-    <p id="result"></p>
+    <p id="result" class="p-success"></p>
 </div>
  <script src="script.js"></script>      
 </body>

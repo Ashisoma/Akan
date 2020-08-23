@@ -1,3 +1,8 @@
+body {
+    background-image: url("https://i.imgur.com/1OCZ70F.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .container {
     border: 1px solid grey;
     box-shadow: 25px grey;
@@ -10,4 +15,7 @@ p {
 }
  #add {
     font-size: 20px;
+ }
+ ul li {
+     text-decoration: none;
  }
