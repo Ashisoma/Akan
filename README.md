@@ -14,3 +14,7 @@ To get your Akan Name, follow these simple steps:
 
 ## Technology Used
 In this project, html was used to craert the form and CSS to style it. JavaScript was also used to come up with the algorthm.
+
+## License
+* MIT
+Copyright (c) 2020 **Onesmus Okali**
