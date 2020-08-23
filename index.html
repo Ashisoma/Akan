@@ -8,12 +8,13 @@
     <title>Akan-Names</title>
 </head>
 <body>
+  <div class="container">
   <h1>Akan-Names</h1>
   <p>Hey there, you can check out your Akan name by just filling the form below. <br> Akan
      names are based on the Ghanaian naming system. One is given their first name depending on gender
      and the day they were born.
   </p>
-  <form class="row">
+  <form class="">
     <div>
     <label for="day-of-birth">
       Day:
@@ -29,27 +30,28 @@
     <div class="row">
     <label for="year-of-birth">
       Year:
-      <input id="year-input" type="number" name="month-of-birth" placeholder="YY" value="" required>
+      <input id="year-input" type="number" name="year-of-birth" placeholder="YY" value="" required>
     </label>
     </div>
     <label for="gender">
-      <p>Select Gender: </p>
+      <p> Gender: </p>
       Male
       <input id="male-input" type="radio" name="gender" value="male" required><br>
       Female
       <input id="female-input" type="radio" name="gender" value="female" required><br>
     </label>
     <br><br>
-      <input id="get-name" type="submit" name="" value="Generate name"><br>
+      <input id="get-name" type="submit" name="" value="Generate name" size="5"><br>
       <br><br>
   </form>  
   <form>
     <form onsubmit="return clearInput()">
       <input class="clear" type="submit" value="Clear input">
     </form>
-    <h4 id = display-name><strong>Your Akan name will be displayed:</strong></h4>
+    <h4 id = "display-name"><strong>Your Akan name will be displayed:</strong></h4>
     <p id="result"></p>
   </form>
+</div>
  <script src="script.js"></script>      
 </body>
 </html>
