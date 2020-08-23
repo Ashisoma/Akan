@@ -9,11 +9,11 @@ Thiis is a web application that generates Akan Names when the user inputs their 
 ## Setup/Installation Requirments
 To get your Akan Name, follow these simple steps:
 1. Make sure you are connected to the internet.
-2. Open your web browser
-3. finally click on this link https://ashisoma.github.io/Akan/
+2. Open your web browser,
+3. Finally click on this link https://ashisoma.github.io/Akan/
 
 ## Technology Used
-In this project, html was used to craert the form and CSS to style it. JavaScript was also used to come up with the algorthm.
+In this project, html was used to craert the form and CSS to style it. JavaScript was also used to come up with the algorithm.
 
 ## License
 * MIT
