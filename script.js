@@ -55,16 +55,18 @@ let index = Math.abs(dayOfWeekNumber - 1);
 
 console.log(index); if (myGenderValue == "male" && monthValid && dayValid) {
     document.getElementById('result').textContent = "You were born on a " + daysOfWeek[index] + " , your Akan name is " + maleAkanName[index];
+    console.log("You were born on a " + daysOfWeek[index] + " , your Akan name is " + maleAkanName[index]);
     document.getElementById('display-name').textContent = "Here is your Akan name: ";
-    document.getElementById('result');
+    //document.getElementById('result');
     document.querySelector('h1').textContent = "Hello" + " " + maleAkanName[index];
-    return false;
+    //return false;
   } else if (myGenderValue == "female" && monthValid && dayValid) {
     document.getElementById('result').textContent = "You were born on a " + daysOfWeek[index] + " , your Akan name is " + femaleAkanName[index];
+    console.log("You were born on a " + daysOfWeek[index] + " , your Akan name is " + femaleAkanName[index]);
     document.getElementById('display-name').textContent = "Here is your Akan name: ";
-    document.getElementById('result');
+   //document.getElementById('result');
     document.querySelector('h1').textContent = "Hello" + " " + femaleAkanName[index];
-    return false;
-  } else {
+    //return false;
+  } else 
     alert("You entered an invalid month or day, please try again");
   }

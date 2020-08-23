@@ -1,3 +1,13 @@
 .container {
     border: 1px solid grey;
+    box-shadow: grey;
 }
+h1 {
+    color : purple;
+}
+p {
+    font-size: 20px;
+}
+ #add {
+    font-size: 20px;
+ }
