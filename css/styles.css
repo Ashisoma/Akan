@@ -1,6 +1,6 @@
 .container {
     border: 1px solid grey;
-    box-shadow: grey;
+    box-shadow: 25px grey;
 }
 h1 {
     color : purple;
